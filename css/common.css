@@ -1,0 +1,109 @@
+#family div:last-of-type
+{
+    color: purple;
+}
+
+#family .main:first-of-type
+{
+    font-size: 2em;
+}
+
+#bc a::before
+{
+    content: ">";
+}
+
+#bc a:first-of-type::before
+{
+    content: none;
+}
+
+#family p:nth-of-type(odd)
+{
+    font-weight: bold;
+}
+
+a 
+{
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img
+{
+    float: left;
+}
+
+#box2
+{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px dotted green;
+}
+
+#t1
+{
+    margin: 20px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-collapse: collapse;
+}
+
+#t1 th
+{
+    border-bottom: 2px solid grey;
+    background-color: antiquewhite;
+}
+
+#t1 td
+{
+    border-bottom: 1px solid grey;
+}
+
+#t1 th:last-of-type,
+#t1 td:last-of-type
+{
+    border-right: none;
+}
+
+#t1 th,
+#t1 td
+{
+    border-right: 1px solid black ;
+}
+
+#t1 tr:nth-of-type(odd) td
+{
+    background-color: teal;
+}
+
+#t1 td:first-of-type
+{
+    text-align: center;
+}
+
+#t2
+{
+    margin: 20px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-collapse: collapse;
+}
+
+#t2 th
+{
+    border-bottom: 2px solid grey;
+    background-color: khaki;
+}
+
+#t2 td
+{
+    border-bottom: 2px solid grey;
+}
